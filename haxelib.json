@@ -1,0 +1,14 @@
+{
+    "classPath": "",
+    "contributors": [ "dstrekelj" ],
+    "dependencies": {
+        "odd": ""
+    },
+    "description": "Odd software renderer HTML5 target",
+    "name": "odd-target-html5",
+    "license": "MIT",
+    "releasenote": "Initial release",
+    "tags": [ "cross", "3d", "odd" ],
+    "url" : "https://github.com/dstrekelj/odd-target-html5/",
+    "version": "1.0.0"
+}
