@@ -1,11 +1,9 @@
-package odd;
+package odd._impl;
 
 import js.html.Uint8ClampedArray;
+import odd.Framebuffer;
 
-/**
- * HTML5-specific framebuffer.
- */
-class Framebuffer
+class FramebufferImpl implements Framebuffer
 {
     static inline var BYTES_PER_PIXEL = 4;
     

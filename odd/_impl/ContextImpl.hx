@@ -7,7 +7,7 @@ import js.html.ImageData;
 @:allow(odd.Context)
 class ContextImpl
 {
-    private var framebuffer : Framebuffer;
+    private var framebuffer : FramebufferImpl;
     
     private var context2d : CanvasRenderingContext2D;
     private var imageData : ImageData;
@@ -24,7 +24,7 @@ class ContextImpl
         document.body.appendChild(canvas);
         
         imageData = context2d.getImageData(0, 0, width, height);
-        framebuffer = new Framebuffer(width, height, imageData.data);
+        framebuffer = new FramebufferImpl(width, height, imageData.data);
     }
     
     public function run(onUpdate : Void->Void, onDraw : Framebuffer->Void) : Void
