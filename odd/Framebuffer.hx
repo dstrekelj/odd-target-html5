@@ -1,4 +1,5 @@
 package odd;
+
 import js.html.Uint8ClampedArray;
 
 /**
