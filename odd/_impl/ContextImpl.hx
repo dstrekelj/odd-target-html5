@@ -1,10 +1,11 @@
-package odd._target;
+package odd._impl;
 
 import js.Browser;
 import js.html.CanvasRenderingContext2D;
 import js.html.ImageData;
 
-class Html5Context
+@:allow(odd.Context)
+class ContextImpl
 {
     private var framebuffer : Framebuffer;
     
