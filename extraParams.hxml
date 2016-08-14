@@ -1,0 +1,3 @@
+-resource templates/index.mtt@index
+
+--macro odd.macros.HTML5SetupMacro.setup()
