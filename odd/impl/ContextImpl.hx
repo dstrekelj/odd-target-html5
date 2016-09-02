@@ -1,4 +1,4 @@
-package odd._impl;
+package odd.impl;
 
 import js.Browser;
 import js.html.CanvasRenderingContext2D;

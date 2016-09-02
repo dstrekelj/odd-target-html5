@@ -1,4 +1,4 @@
-package odd._impl;
+package odd.impl;
 
 import js.html.Uint8ClampedArray;
 import odd.Framebuffer;
