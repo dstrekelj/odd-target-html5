@@ -15,16 +15,14 @@ class Target
 {
     public static macro function init() : Expr
     {
-        if (Compiler.getDefine("display"))
+        if (!Compiler.getDefine("display"))
         {
-            return null;
+            Sys.println("Setting up Odd HTML5 project.");
+
+            createIndexFile(Utils.getOutputPath(), Utils.getOutputFileName());
+
+            Sys.println("Done.");
         }
-
-        Sys.println("Setting up Odd HTML5 project.");
-
-        createIndexFile(Utils.getOutputPath(), Utils.getOutputFileName());
-
-        Sys.println("Done.");
 
         return null;
     }
