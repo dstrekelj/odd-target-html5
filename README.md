@@ -20,4 +20,6 @@ Include the following libraries in your project:
 ```
 -lib odd
 -lib odd-target-html5
+# Your directives go here
+-js out/html5/main.js
 ```
